@@ -1,0 +1,48 @@
+.counterContainer{
+  border:  3px solid green;
+  margin: 10px;
+  border-radius: 10px;
+}
+.Bottom{
+    display: flex;
+    justify-content: center;
+}
+.Top > Button {
+  background-color: white;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 10px;
+  margin-top: 5px;
+  width: auto
+}
+.Bottom > Button{
+  background-color: red;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+ 
+}
+.Btn{
+  margin: 10px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.del{
+  font-size: 25px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  cursor: pointer;
+  color: red;
+}
+#index{
+  position: relative;
+  padding: 10px;
+  color: blue;
+  font-weight: 600;
+}
